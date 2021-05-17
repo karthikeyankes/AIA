@@ -10,7 +10,7 @@ public class MyExeInit {
 	final static String ERROR_PRO="\\bin\\error.pro";
 	final static String BASIC_ERROR="-1:Undefined ERROR";
 	
-	final static void runInit() throws Exception {
+	final  void runInit() throws Exception {
 		InputStream input = new FileInputStream(BASIC_PATH+ERROR_PRO) ;
 
             Properties prop = new Properties();
