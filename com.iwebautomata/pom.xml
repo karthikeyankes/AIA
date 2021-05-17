@@ -41,22 +41,21 @@
 				</executions>
 			</plugin>
 			<plugin>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>3.0.2</version>
-            <configuration>
-                <archive>
-                    <manifest>
-                        <addClasspath>true</addClasspath>
-                        <mainClass>
-                            com.iwebautomata.myexe.run.RunMe
-                        </mainClass>
-                    </manifest>
-                </archive>
-            </configuration>
-        </plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>
+								com.iwebautomata.myexe.run.RunMe
+							</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-	
 	<dependencies>
 		<dependency>
 			<groupId>log4j</groupId>

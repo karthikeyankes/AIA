@@ -10,9 +10,12 @@ public class RunMe {
 	public static void main (String a[])
 	{
 		boolean start=false;
+		BasicConfigurator.configure();  
+		logger.info("....................Run the file ");  
 		try {
-			
+			logger.info("....................Run the init ");  
 			myExeInit.runInit();
+			logger.info("....................Run the init "); 
 			start=true;
 		}
 		catch (Exception e) {System.out.println("Failed to Start");}
