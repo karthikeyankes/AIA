@@ -11,11 +11,11 @@ public class RunMe {
 	{
 		boolean start=false;
 		BasicConfigurator.configure();  
-		logger.info("....................Run the file ");  
+		logger.info("...Start the AIA...... ");  
 		try {
-			logger.info("....................Run the init ");  
-			myExeInit.runInit();
-			logger.info("....................Run the init "); 
+			
+			//myExeInit.runInit();
+			//myExeInit.runInitlog();
 			start=true;
 		}
 		catch (Exception e) {System.out.println("Failed to Start");}
@@ -29,8 +29,9 @@ public class RunMe {
 	        } 
 	        catch (CatchHereException ex) 
 	        {  
-	            System.out.println(ex.getMessage()); 
+	            logger.error(ex.getMessage()); 
 	        } 
 		}
+		logger.info("...End the AIA...... "); 
 	}
 }
