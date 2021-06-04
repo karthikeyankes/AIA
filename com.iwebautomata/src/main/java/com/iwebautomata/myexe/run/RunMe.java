@@ -6,6 +6,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 public class RunMe {
 	private static final Logger logger = LogManager.getLogger(RunMe.class);
+	@SuppressWarnings("unused")
 	private static final MyExeInit myExeInit = new MyExeInit();  
 	public static void main (String a[])
 	{
