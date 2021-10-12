@@ -11,6 +11,7 @@ public class RunMe {
 	{
 		boolean start=false;
 		//BasicConfigurator.configure();  
+		//test changes
 		log.info("...Start the AIA...... ");  
 		try {
 			
